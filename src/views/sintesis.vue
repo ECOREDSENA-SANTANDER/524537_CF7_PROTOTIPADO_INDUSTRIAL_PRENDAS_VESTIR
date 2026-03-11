@@ -2,7 +2,8 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5 El proceso de escalado es el último paso del patronaje, entendiendo los cuadros de tallas se realiza el análisis detallado de las prendas y se definen las medidas específicas para cada talla. Cada empresa tiene su propio cuadro de tallas, pero el proceso de escalado, sea digital o manual siempre es el mismo. En el siguiente diagrama se presentan los temas más significativos tratados dentro de este componente: 
+    
+    p.mb-4 El proceso de escalado es el último paso del patronaje, entendiendo los cuadros de tallas se realiza el análisis detallado de las prendas y se definen las medidas específicas para cada talla. Cada empresa tiene su propio cuadro de tallas, pero el proceso de escalado, sea digital o manual siempre es el mismo. En el siguiente diagrama se presentan los temas más significativos tratados dentro de este componente: 
 
     .row.justify-content-center
       .col-lg-10.mb-5

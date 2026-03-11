@@ -8,8 +8,8 @@
       h1 Escalado en Optitex
     
     .row.justify-content-center.mb-4
-      .col-lg-1.col-md-12.col-12
-        img.img-a.img-t.d-none.d-lg-block(src='@/assets/curso/tema2/img1.svg', alt='tema1')
+      .col-lg-1.d-none.d-lg-block
+        img(src='@/assets/curso/tema2/img1.svg', alt='')
       .col-lg-11.col-md-12.col-12
         p.mb-0 A nivel general, el escalado digital o a través de un #[em software] de patronaje se trabaja de la misma manera o con el mismo análisis que se hace de forma manual, en esta ocasión únicamente se va a abordar la programación, herramientas y reconocimiento de la interfaz del programa Optitex para hacer cualquier tipo de escalado, de esta manera se tomará como referente la base de falda; sin embargo, estos mismos pasos y esta misma configuración aplica para cualquier tipo de base, prenda, trazo, molde o interpretación.
 

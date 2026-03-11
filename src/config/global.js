@@ -1,8 +1,9 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    Name: 'Escalado digital',
+    Description:
+      'Al finalizar todo el proceso de patronaje hasta el punto de prototipado se lleva a cabo el proceso de escalado, este se realiza después de la verificación y validación de los moldes que se quieren trabajar, el escalado se puede trabajar de manera digital o manual, en cualquiera de los dos casos siempre se debe tener como punto de partida el cuadro de tallas para poder hacer el análisis detallado de las prendas, cada empresa, marca o industria trabaja medidas, análisis y cuadros de tallas diferentes, lo que hace necesario el reconocimiento de estas.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -12,6 +13,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -31,27 +36,51 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Escalado manual de prendas',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Escalado de falda',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Escalado de base con pinzas - superior',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Escalado de básico de pantalón',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Escalado cortes, manga, cuello',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Base superior masculina - análisis de escalado bibásico',
+            hash: 't_1_5',
+          },
+          {
+            numero: '1.6',
+            titulo:
+              'Análisis y construcción de cuadro de tallas masculino - dxt escalado',
+            hash: 't_1_6',
+          },
+          {
+            numero: '1.7',
+            titulo: 'Modificación de moldes - análisis sobre medidas',
+            hash: 't_1_7',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Escalado en Optitex',
         desarrolloContenidos: true,
       },
     ],
@@ -102,22 +131,92 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: 'Sitio web',
-      link: '',
+      tema: 'Escalado Masculino',
+      referencia: 'Gaviria F., (2018). Manual escalado masculino',
+      tipo: 'Documento',
+      link:
+        'https://repositorio.sena.edu.co/bitstream/handle/11404/5245/patronaje_escalado_linea_masculina.pdf;sequence=1',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Escalado',
+      significado: 'Adaptación a una determinada escala o marcas de medida.',
+    },
+    {
+      termino: 'Escalado bibásico',
+      significado: 'Se toman dos tallas básicas para obtener una intermedia.',
+    },
+    {
+      termino: 'Escalado monobásico',
+      significado:
+        'Partiendo de tallas base se obtienen las demás por aumento o reducción.',
+    },
+    {
+      termino: 'Escalado simple',
+      significado:
+        'Se aplica cuando los incrementos de tallas varían dentro de la serie.',
+    },
+    {
+      termino: 'Optitex',
+      significado:
+        'Empresa que ofrece soluciones de software para el diseño, la visualización y la producción de ropa en 2D y 3D.',
+    },
+    {
+      termino: 'Plano cartesiano',
+      significado:
+        'Dos rectas numéricas perpendiculares, una horizontal y otra vertical, que se cortan en un punto llamado origen o punto cero.',
+    },
+    {
+      termino: 'Proporciones',
+      significado:
+        'En escalado son medidas de los aumentos o disminuciones secuenciales para obtener tallas mayores o menores, moldes o bases.',
+    },
+    {
+      termino: 'Talla',
+      significado:
+        'Medida convencional usada en la fabricación y venta de prendas de vestir.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Gutiérrez, L., Moncayo, A., Tanaka, K., Kimura, F., Moreno, D. (2011). Manual de patronaje básico e interpretación de diseños. Servicio Nacional de Aprendizaje SENA.',
+      link:
+        'https://www.scribd.com/document/279036173/Manual-de-Patronaje-Basico-Sena',
+    },
+    {
+      referencia:
+        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+      link:
+        'https://www.harpersbazaar.mx/cuerpo-mente/la-ropa-que-eliges-afecta-a-tu-estado-de-animo-y-cerebro-segun-expertos',
+    },
+    {
+      referencia:
+        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda: dibujo plano.',
       link: '',
+    },
+    {
+      referencia:
+        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
+      link:
+        'https://www.scribd.com/document/394130880/Laver-James-Breve-Historia-Del-Traje-y-La-Moda-pdf',
+    },
+    {
+      referencia:
+        'Sociedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book].',
+      link: '',
+    },
+    {
+      referencia:
+        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso.',
+      link: '',
+    },
+    {
+      referencia:
+        'Vélez, M., García M., Hincapié L. (1996). Patronaje y escalado línea interior y deportiva. Servicio Nacional de Aprendizaje SENA. ',
+      link:
+        'https://www.scribd.com/document/574961362/SENA-Patronaje-y-escalado-Linea-interior-deportiva',
     },
   ],
   creditos: [
@@ -125,14 +224,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre completo',
+          nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Responsable del ecosistema',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Edison Eduardo Mantilla Cuadros',
           cargo: 'Responsable de línea de producción',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -140,9 +239,27 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Lizeth Maritza Rodríguez Beltrán',
+          cargo: 'Instructora técnica',
+          centro:
+            'Centro de Manufactura en Textil y Cuero - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Natalia Andrea Bueno Pizarro',
+          cargo: 'Diseñadora y evaluadora instruccional',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Julia Isabel Roberto',
+          cargo: 'Diseñadora y evaluadora instruccional',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Carolina Jiménez Suescún',
+          cargo: 'Evaluadora instruccional',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -150,19 +267,19 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Yazmin Rocio Figueroa Pacheco',
+          cargo: 'Diseñadora de contenidos',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Andrea Paola Botello De la Rosa',
+          cargo: 'Desarrolladora <em>full stack</em>',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Maria Alejandra Vera Briceño',
+          cargo: 'Animadora y productora multimedia',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },
@@ -170,14 +287,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Yineth Ibette Gonzalez Quintero',
+          cargo: 'Validadora de recursos educativos digitales',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Diana Lizeth Lozada Díaz',
+          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },
