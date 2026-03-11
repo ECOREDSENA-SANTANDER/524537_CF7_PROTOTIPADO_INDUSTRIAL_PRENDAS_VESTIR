@@ -1,0 +1,9 @@
+<svg id="escalabilidad" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <rect id="Rectángulo_381662" data-name="Rectángulo 381662" width="53" height="53" rx="2" transform="translate(9 2)" fill="#e3fcfd"/>
+  <rect id="Rectángulo_381663" data-name="Rectángulo 381663" width="18" height="8" rx="2" transform="translate(2 38)" fill="#e3fcfd"/>
+  <rect id="Rectángulo_381664" data-name="Rectángulo 381664" width="18" height="8" rx="2" transform="translate(2 46)" fill="#42eaf5"/>
+  <rect id="Rectángulo_381665" data-name="Rectángulo 381665" width="18" height="8" rx="2" transform="translate(2 54)" fill="#e3fcfd"/>
+  <path id="Trazado_842248" data-name="Trazado 842248" d="M60,0H11A4,4,0,0,0,7,4V36H4a4,4,0,0,0-4,4v4a3.954,3.954,0,0,0,.556,2A3.954,3.954,0,0,0,0,48v4a3.954,3.954,0,0,0,.556,2A3.954,3.954,0,0,0,0,56v4a4,4,0,0,0,4,4H18a4,4,0,0,0,4-4V57H60a4,4,0,0,0,4-4V4a4,4,0,0,0-4-4ZM4,40H18l0,4H4Zm0,8H18l0,4H4ZM4,60V56H18l0,4Zm56-7H21.858A3.954,3.954,0,0,0,22,52V48a3.954,3.954,0,0,0-.556-2A3.954,3.954,0,0,0,22,44V40a4,4,0,0,0-4-4H11V4H60Z" fill="#12263f"/>
+  <path id="Trazado_842249" data-name="Trazado 842249" d="M28,38a1.993,1.993,0,0,0,1.414-.586L52,14.828V18a2,2,0,0,0,4,0V10a2,2,0,0,0-2-2H46a2,2,0,0,0,0,4h3.172L26.586,34.586A2,2,0,0,0,28,38Z" fill="#12263f"/>
+  <circle id="Elipse_5925" data-name="Elipse 5925" cx="2" cy="2" r="2" transform="translate(15 8)" fill="#42eaf5"/>
+</svg>

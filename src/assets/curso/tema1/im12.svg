@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="256.611" viewBox="0 0 390 256.611">
+  <g id="Grupo_1079034" data-name="Grupo 1079034" transform="translate(-605 -7918.943)">
+    <path id="Trazado_842349" data-name="Trazado 842349" d="M2004-4313.333h364l13.333-129.333-48-92H2038.667l-45.333,92Z" transform="translate(-1387.333 12480)" fill="#f9e2bf"/>
+    <path id="Trazado_842352" data-name="Trazado 842352" d="M222.369,2H0V-2H222.369Z" transform="translate(798 8166.667) rotate(-90)" fill="#f12261"/>
+    <path id="Trazado_842350" data-name="Trazado 842350" d="M388,1H0V-1H388Z" transform="translate(994 8038.798) rotate(180)" fill="#18639b"/>
+    <path id="Trazado_842354" data-name="Trazado 842354" d="M17.775,1H0V-1H17.775Z" transform="translate(649.667 7936) rotate(90)" fill="#18639b"/>
+    <path id="Trazado_842355" data-name="Trazado 842355" d="M17.775,1H0V-1H17.775Z" transform="translate(946.333 7936) rotate(90)" fill="#18639b"/>
+    <path id="Trazado_842358" data-name="Trazado 842358" d="M17.775,1H0V-1H17.775Z" transform="translate(981.667 8157.779) rotate(90)" fill="#18639b"/>
+    <path id="Trazado_842359" data-name="Trazado 842359" d="M17.775,1H0V-1H17.775Z" transform="translate(616.667 8157.779) rotate(90)" fill="#18639b"/>
+    <path id="Trazado_842356" data-name="Trazado 842356" d="M17.775,1H0V-1H17.775Z" transform="translate(994 8029.91) rotate(90)" fill="#18639b"/>
+    <path id="Trazado_842357" data-name="Trazado 842357" d="M17.775,1H0V-1H17.775Z" transform="translate(606 8029.91) rotate(90)" fill="#18639b"/>
+    <path id="Trazado_842353" data-name="Trazado 842353" d="M365,1H0V-1H365Z" transform="translate(981.667 8166.667) rotate(180)" fill="#18639b"/>
+    <path id="Trazado_842351" data-name="Trazado 842351" d="M297.667,1H0V-1H297.667Z" transform="translate(947.333 7945.333) rotate(180)" fill="#18639b"/>
+    <g id="Grupo_1078994" data-name="Grupo 1078994" transform="translate(-3565.753 5386.564) rotate(90)">
+      <path id="Trazado_841844" data-name="Trazado 841844" d="M148.218,233.7l.715-.768-2.846-2.645h84.855v-1.748H146.086l2.847-2.646-.715-.768-4.612,4.287Z" transform="translate(2418.604 -4620.031)" fill="#673ab7"/>
+    </g>
+    <g id="Grupo_1078995" data-name="Grupo 1078995" transform="translate(-3565.753 5499.564) rotate(90)">
+      <path id="Trazado_841844-2" data-name="Trazado 841844" d="M148.218,233.7l.715-.768-2.846-2.645h84.855v-1.748H146.086l2.847-2.646-.715-.768-4.612,4.287Z" transform="translate(2418.604 -4620.031)" fill="#673ab7"/>
+    </g>
+    <text id="Largo_T" data-name="Largo T" transform="translate(787.167 8068.298) rotate(-90)" fill="#12263f" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Largo T</tspan></text>
+    <text id="Largo_1" data-name="Largo 1" transform="translate(815 8019.443) rotate(-90)" fill="#12263f" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Largo 1</tspan></text>
+    <text id="A.a" transform="translate(873.5 7935.943)" fill="#12263f" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-10.965" y="0">A.a</tspan></text>
+    <text id="A.b" transform="translate(873.5 8031.298)" fill="#12263f" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-11.598" y="0">A.b</tspan></text>
+    <text id="M" transform="translate(691.667 8083)" fill="#12263f" font-size="26" font-family="SegoeUI, Segoe UI"><tspan x="-11.673" y="0">M</tspan></text>
+    <text id="A.c" transform="translate(873.5 8160.298)" fill="#12263f" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-10.59" y="0">A.c</tspan></text>
+    <text id="Largo_2" data-name="Largo 2" transform="translate(815 8133.37) rotate(-90)" fill="#12263f" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Largo 2</tspan></text>
+  </g>
+</svg>

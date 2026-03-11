@@ -1,32 +1,275 @@
-.banner-principal-decorativo
-  &-1
-    animation: float1 3.5s ease-in-out infinite alternate
-    position: absolute
-    top: 20%
-    right: 10%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
+.caja1
+  background-color: #FEF5E5 
 
-@keyframes float1
-  0%
-    transform: translateY(20px)
-  100%
-    transform: translateY(0px)
-  
 .banner-principal .tarjeta
-  background-position: left 50% !important
+  background-color: #673ab7
+  background-size: cover
+  background-position: left
 
-.banner-principal__row .banner-principal__img
-  width: 400px !important  
+.banner-principal__row 
+    justify-content: space-around
 
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
+@media (min-width: 1400px) 
+    .col-xxl-5 
+        flex: 0 0 auto
+        width: 42.666667%
+@media (min-width: 576px) 
+    .ps-sm-5 
+        padding-left: 3rem !important
+  
+@media (min-width: 1400px) 
+    .banner-principal__img 
+        padding-top: 0rem !important
+        width: 585px
+        left: 50px
+        position: relative
+  
+.tabla-a.tabl table
+  min-width: 470px !important
+.tabla-a th 
+    background-color: #673AB7
+    border-color: #673AB7
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.2;
 
-.banner-interno__titulo__icono i
+.tabla-a td.hor
+    border-bottom: 2px solid #D2BEF6
+
+.negro
+  color: black
+  font-weight: 900;
+
+.titulo-sexto.color-acento-contenido 
+    border-left: 10px solid #BAEFE4
+    padding: 3px 0px 3px 10px;
+
+.caja2
+  background-color: #D1BCFF
+
+.img-t
+  width: auto
+  height: auto
+.img-a
+  display: block
+  margin: auto
+
+.caja3
+  background-color: #FFFAE8
+
+.rad
+  border-radius: 12px
+
+.caja4
+  background-color: #FFF1C4
+
+.cajablanca
+  background-color: #ffffff
+  height: 30px
+.caja44
+  background-color: #FFEBAB
+.radi
+  border-radius: 8px
+
+.caja31
+  background-color: #FFFAE8
+  height: 350px
+
+.caja22
+  background-color: #F9F6FE
+
+.fondo21
+  background-color: #673AB7
+  border-radius: 12px
+
+.cajon.color-primario
+  background-color: #D1BCFF
+
+.caja5
+  background-color: #FEF5E5
+  border-radius: 10px
+.caja5p
+  background-color: #FEF5E5
+  border-radius: 10px
+  position: relative
+.lista-ul--color li > i:first-of-type 
+    color: #895CD8;
+
+
+.f-1 i      
+  font-size: 10px
+.lista-ul--color.color-primario li > i:first-of-type
   color: $color-primario
 
-figcaption
-  font-weight: normal
+.titulo-segundo:after 
+    content: '';
+    display: block;
+    height: 5px;
+    width: 140px;
+    border-left: solid 50px;
+    border-left-color: $color-primario;
+    background-color: #e8e8e8;
+
+.titulo-segundo.pri:after 
+    content: '';
+    display: block;
+    height: 5px;
+    width: 140px;
+    border-left: solid 50px;
+    border-left-color: $color-primario;
+    background-color: $color-primario;
+.titulo-sexto 
+    margin-bottom: 24px;
+    border-left: 6px solid;
+    padding: 5px 0 5px 15px;
+
+.fa-chevron-right:before 
+    content: url('../assets/curso/tema1/chevron.png')
+  
+.pri
+  color: $color-primario
+  font-weight: 900;
+
+.tabs-c__tab
+    border-bottom: 6px solid #E8E8E8 !important
+
+.tabs-c__header 
+    margin-bottom: 0px !important
+.tabs-c
+    border-bottom: 4px solid #D0D6D9;
+
+.bg26
+  background-color: #FEF5E5
+
+.tabs-c.color-primario .tabs-c__tab--active 
+    border-bottom-color: #EBA325 !important;
+
+.tabs-c.color-primario .tabs-c__tab--active:before 
+    border-top-color: #EBA325;
+
+.f-2 i      
+  font-size: 8px
+
+.lista-ul--color.f-2 li > i:first-of-type 
+    color: black;
+
+.avatar
+  position: relative
+  bottom: -15px
+  right: -2.5rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+
+.caj
+  background-color: #E2D7F8
+  border-radius: 18px
+
+
+    
+.tarjeta.color-primario * 
+    color: #080808;
+
+
+.bg11
+  background: url('../assets/curso/tema1/bg11.png')
+
+
+.ia
+  img
+    width: 30px
+  h2
+    color: #673AB7
+  &::after   
+    content: ""
+    display: block
+    height: 4px
+    width: 110px
+    background-color: #673AB7
+
+
+.mnl-1
+  margin-right: -8.5% 
+  z-index: 9999
+  @media (max-width: 576px)
+    margin-right: 0px
+
+
+.mh-375
+  min-height: 360px 
+
+.mnl-2
+  margin-right: -9.5% 
+  z-index: 9999
+  @media (max-width: 576px)
+    margin-right: 0px
+
+.caja5pp 
+    background-color: #FEF5E5
+    border-radius: 10px
+    position: relative
+
+@media (min-width: 992px) 
+    .ps-lg-5.tr
+        padding-left: 3.5rem !important
+
+.caja5pw
+    background-color: #FEF5E5
+    border-radius: 5px
+    position: relative
+
+
+.tabs-c.color-primario .tabs-c__tab--active 
+    border-bottom-color: #EBA325 !important;
+    background-color: #ffffff
+    font-weight: 900;
+
+.tabs-c__tab 
+    border-bottom: 6px solid #E8E8E8 !important;
+    background-color: #DADDDF
+
+
+.bei
+  background-color: #FEF5E5
+
+.ba
+  background-color: #E7D8F2
+
+.bla
+  background-color: #ffffff
+
+.bl
+  background-color: #673AB7
+
+.tabla-a.tabla-peque table
+  min-width: 470px !important
+
+.tabla-a th 
+  border-color: #673ab7
+
+table 
+    border-collapse: unset
+    border-spacing: 0px
+    table-layout: fixed
+    width: 100%
+td, th 
+    border: 0px solid #e8e8e8
+    padding: 0.75em
+
+.ru
+  height: 71px
+
+
+.or
+  color: #673AB7
+
+.bgrr
+  background-color: #FFD54F
+  border-radius: 50%
+
+.wi
+  min-width: 220%
+  max-width: 220%
+
+.cy
+  background-color: #FFF8E1
