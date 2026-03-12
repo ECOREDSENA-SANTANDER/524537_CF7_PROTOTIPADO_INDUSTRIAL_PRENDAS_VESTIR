@@ -314,6 +314,8 @@ figcaption
   h3
     z-index: 999
     padding: 0px 50px 0px 15px
+    @media (max-width: $bp-max-md)
+      padding: 0px 15px 0px 10px
   &::before   
     content: ""
     position: absolute
@@ -322,6 +324,9 @@ figcaption
     width: 100%
     border-radius: 500px
     background-color: #FEF4EB
+    @media (max-width: $bp-max-md)
+      height: 95%
+  
 .slyder-a__btn--sigt, .slyder-a__btn--atrs
   background-color: $color-acento-botones
   border-color: $color-acento-botones
