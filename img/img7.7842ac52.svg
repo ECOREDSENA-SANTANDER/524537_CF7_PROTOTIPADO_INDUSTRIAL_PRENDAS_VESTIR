@@ -1,0 +1,10 @@
+<svg id="signo-de-interrogacion" xmlns="http://www.w3.org/2000/svg" width="156.951" height="155.994" viewBox="0 0 156.951 155.994">
+  <path id="Trazado_59723" data-name="Trazado 59723" d="M9.809,0H127.522a9.81,9.81,0,0,1,9.809,9.809V98.094a9.81,9.81,0,0,1-9.809,9.809H9.809A9.81,9.81,0,0,1,0,98.094V9.809A9.81,9.81,0,0,1,9.809,0Zm0,0" fill="#f7c99c"/>
+  <path id="Trazado_59724" data-name="Trazado 59724" d="M171.9,200.375,126.353,171.9H73.809A9.81,9.81,0,0,1,64,162.094V73.81A9.81,9.81,0,0,1,73.809,64H191.522a9.81,9.81,0,0,1,9.809,9.809v88.285a9.81,9.81,0,0,1-9.809,9.809H171.9Zm0,0" transform="translate(-44.381 -44.381)" fill="#214539"/>
+  <g id="Grupo_31684" data-name="Grupo 31684" transform="translate(29.428 29.428)">
+    <path id="Trazado_59725" data-name="Trazado 59725" d="M248.524,177.045h-9.809V157.426h4.9a9.809,9.809,0,1,0-9.809-9.809H224a19.619,19.619,0,1,1,24.524,19Zm0,0" transform="translate(-184.762 -118.189)" fill="#fff"/>
+    <path id="Trazado_59726" data-name="Trazado 59726" d="M272,320h9.809v9.809H272Zm0,0" transform="translate(-218.048 -251.334)" fill="#fff"/>
+    <path id="Trazado_59727" data-name="Trazado 59727" d="M105.809,115.619H96V96h19.619v9.809h-9.809Zm0,0" transform="translate(-96 -96)" fill="#fff"/>
+    <path id="Trazado_59728" data-name="Trazado 59728" d="M435.619,339.619H416v-9.809h9.809V320h9.809Zm0,0" transform="translate(-317.906 -251.334)" fill="#fff"/>
+  </g>
+</svg>
