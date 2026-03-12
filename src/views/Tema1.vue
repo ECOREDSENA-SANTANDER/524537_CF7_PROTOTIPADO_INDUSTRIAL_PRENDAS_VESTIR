@@ -64,7 +64,7 @@
           p #[b Considerando que el ancho es representado por la línea X, y el largo por la línea Y.]
           p.mb-4 Si tomamos como punto de partida 
             strong el punto de origen 
-            | al hablar de reducir o aumentar, podríamos acudir a los espacios negativos o positivos del plano cartesiano, según corresponda.
+            span.mb-0 al hablar de reducir o aumentar, podríamos acudir a los espacios negativos o positivos del plano cartesiano, según corresponda.
           .row.justify-content-center
             .col-lg-6.col-md-6.col-12
               .bg6.rad.p-4.mb-3
@@ -225,7 +225,7 @@
           p.mb-4 Para aplicar el escalado se trabaja con las proporciones, no con la diferencia.
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Tabla 1. 
-            | Proporciones
+            span.mb-0 Proporciones
           .tabla-a.tabl.color-acento-contenido
             table
               thead
@@ -298,80 +298,74 @@
           .col-lg-5.col-md-12.my-3
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Figura 4. 
-              | Plano completo
+              span.mb-0 Plano completo
             figure
               img.img-a.img-t(src='@/assets/curso/tema1/img41.svg', alt='La figura presenta un plano completo con un cuadrado dibujado con el centro justo en el punto de origen (0,0).')
           .col-lg-7.col-md-12.my-3
             p.mb-4 En este caso se aplica #[b una proporción] porque en el plano se está trabajando la medida total.
-            .titulo-sexto.color-acento-contenido
+            .titulo-sexto.color-acento-contenido.mb-3
               h5 Tabla 2. 
-              | Proporción completa
-            .row.justify-content-center
-              .col-lg-12.col-md-12
-                .tabla-a.tabla-peque
-                  table.text-center
-                    thead
-                      tr.bl
-                        th.h4 #[b Medidas]
-                        th.h4 #[b Dif. x talla]
-                        th.h4 #[b Proporción]
-                        th.h4 #[b Medida aplicar en escalado]
-                    tbody.bg-white
-                      tr.p-1
-                        td.text-center Largo
-                        td.text-center 2 cm
-                        td.text-center Completa
-                        td.text-center 2 cm
-                      tr.p-1
-                        td.text-center.ba Ancho
-                        td.text-center.ba 2 cm
-                        td.text-center.ba Completa
-                        td.text-center.ba 2 cm            
+              span.mb-0 Proporción completa
+            .tabla-a.tabla-peque
+              table.text-center
+                thead
+                  tr.bl
+                    th.h4 #[b Medidas]
+                    th.h4 #[b Dif. x talla]
+                    th.h4 #[b Proporción]
+                    th.h4 #[b Medida aplicar en escalado]
+                tbody.bg-white
+                  tr.p-1
+                    td.text-center Largo
+                    td.text-center 2 cm
+                    td.text-center Completa
+                    td.text-center 2 cm
+                  tr.p-1
+                    td.text-center.ba Ancho
+                    td.text-center.ba 2 cm
+                    td.text-center.ba Completa
+                    td.text-center.ba 2 cm            
       .py-3.py-md-4.px-3(titulo="Plano por mitad")
         .row.justify-content-center
           .col-lg-5.col-md-12.my-3
-            .titulo-sexto.color-acento-contenido
+            .titulo-sexto.color-acento-contenido.mb-3
               h5 Figura 5. 
-              | Plano por la mitad
+              span.mb-0 Plano por la mitad
             img.img-a.img-t(src='@/assets/curso/tema1/img42.svg', alt='La figura presenta un plano con medio cuadrado dibujado, en la parte derecha del plano.')
           .col-lg-7.col-md-12.my-3
             p.mb-4 En este caso en el ancho se debe aplicar 1/2 proporción, porque en el plano se está trabajando la mitad de la medida total.
-            .row.justify-content-center(data-aos="fade")
-              .col-lg-12.col-md-12.col-12
-                .titulo-sexto.color-acento-contenido
-                  h5 Tabla 3. 
-                  | Proporción media
-            .row.justify-content-center
-              .col-lg-12.col-md-12
-                .tabla-a.tabla-peque
-                  table.text-center
-                    thead
-                      tr.bl
-                        th.h4 #[b Medidas]
-                        th.h4 #[b Dif. x talla]
-                        th.h4 #[b Proporción]
-                        th.h4 #[b Medida aplicar en escalado]
-                    tbody
-                      tr.p-1
-                        td.text-center Largo
-                        td.text-center 2 cm
-                        td.text-center Completa
-                        td.text-center 1 cm
+            .titulo-sexto.color-acento-contenido.mb-3
+              h5 Tabla 3. 
+              span.mb-0 Proporción media
+            .tabla-a.tabla-peque
+              table.text-center
+                thead
+                  tr.bl
+                    th.h4 #[b Medidas]
+                    th.h4 #[b Dif. x talla]
+                    th.h4 #[b Proporción]
+                    th.h4 #[b Medida aplicar en escalado]
+                tbody
+                  tr.p-1
+                    td.text-center Largo
+                    td.text-center 2 cm
+                    td.text-center Completa
+                    td.text-center 1 cm
 
-                      tr.p-1
-                        td.text-center.ba Ancho
-                        td.text-center.ba 2 cm
-                        td.text-center.ba 1/1
-                        td.text-center.ba 1 cm
+                  tr.p-1
+                    td.text-center.ba Ancho
+                    td.text-center.ba 2 cm
+                    td.text-center.ba 1/1
+                    td.text-center.ba 1 cm
           
     .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-lg-12.col-md-12.col-12
         .caja2.p-4
-          .row.justify-content-center
+          .row.justify-content-center.align-items-center
             .col-lg-6.col-md-12.col-12
-              p.mt-4.negro Ejercicio de análisis 
+              h4 Ejercicio de análisis 
               p.mb-4 Realice el #[b escalado de la siguiente figura] teniendo en cuenta:
-              ul.lista-ul--color
+              ul.lista-ul--color.color-primario.fa-ul
                 li.mb-1.d-flex
                   i.fas.fa-chevron-right
                   p.mb-0 El cuadro de tallas asignado
@@ -392,33 +386,34 @@
     
     .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-lg-4.col-md-12.col-12.mb-4
-        .titulo-sexto.color-acento-contenido
+        .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 6. 
-          | Cuadro de tallas asignado
-        img.img-a.img-t(data-aos="fade-right")(src='@/assets/curso/tema1/im12.svg', alt='La figura presenta el cuadro de tallas y adicionalmente un diagrama con la descripción de cada medida.')
+          span.mb-0 Cuadro de tallas asignado
+        figure
+          img.img-a.img-t(src='@/assets/curso/tema1/im12.svg', alt='La figura presenta el cuadro de tallas y adicionalmente un diagrama con la descripción de cada medida.')
 
             
-    .row.justify-content-center
-      .col-lg-6.col-md-12.mb-4
-        .tabla-a.tabla-peque(alt='La tabla expone los resultados de aplicar las fórmulas para diferentes medidas corporales a partir de una estatura total de 1.70 m y un tórax máximo de 90 cm. La cadera se calcula sumando 8 cm al tórax máximo, resultando en 98 cm. El pecho se obtiene restando 4 cm al tórax máximo, dando 86 cm. La cintura se determina restando 28 cm de la medida de la cadera, resultando en 70 cm. La estatura 7a cervical útil se calcula restando 20 cm de la estatura total, resultando en 1.50 m. Finalmente, el largo de brazo se calcula como 4/10 de la estatura 7aC, que resulta en 60 cm. ')
+    .row.justify-content-center.mb-4
+      .col-lg-5.col-md-12.mb-4
+        .tabla-a.tabla-peque
           table.text-center
             thead.ru
-              tr.bl
+              tr
                 th.h4 #[b Medidas]
                 th.h4 #[b XS]
                 th.h4 #[b S]
                 th.h4 #[b M]
                 th.h4 #[b L]
                 th.h4 #[b XL]
-            tbody
-              tr.p-1
-                td.text-center.bla Largo T.
-                td.text-center.bla 5.5
-                td.text-center.bla 6
-                td.text-center.bla 6.5
-                td.text-center.bla 7
-                td.text-center.bla 7.5
-              tr.p-1
+            tbody.pp
+              tr
+                td.text-center Largo T.
+                td.text-center 5.5
+                td.text-center 6
+                td.text-center 6.5
+                td.text-center 7
+                td.text-center 7.5
+              tr
                 td.text-center.ba Largo 1
                 td.text-center.ba 2
                 td.text-center.ba 2.25
@@ -426,12 +421,12 @@
                 td.text-center.ba 2.75
                 td.text-center.ba 3
               tr
-                td.text-center.bla Largo 2
-                td.text-center.bla 3.5
-                td.text-center.bla 3.75
-                td.text-center.bla 4
-                td.text-center.bla 4.25
-                td.text-center.bla 4.5
+                td.text-center Largo 2
+                td.text-center 3.5
+                td.text-center 3.75
+                td.text-center 4
+                td.text-center 4.25
+                td.text-center 4.5
               tr
                 td.text-center.ba A.a
                 td.text-center.ba 3
@@ -440,12 +435,12 @@
                 td.text-center.ba 9
                 td.text-center.ba 11
               tr
-                td.text-center.bla B.b
-                td.text-center.bla 6
-                td.text-center.bla 8
-                td.text-center.bla 10
-                td.text-center.bla 12
-                td.text-center.bla 14
+                td.text-center B.b
+                td.text-center 6
+                td.text-center 8
+                td.text-center 10
+                td.text-center 12
+                td.text-center 14
               tr
                 td.text-center.ba A.c
                 td.text-center.ba 5
@@ -453,9 +448,8 @@
                 td.text-center.ba 9
                 td.text-center.ba 11
                 td.text-center.ba 13
-
-      .col-lg-6.col-md-12.mb-4
-        .tabla-a.tabla-peque(alt='La tabla expone los resultados de aplicar las fórmulas para diferentes medidas corporales a partir de una estatura total de 1.70 m y un tórax máximo de 90 cm. La cadera se calcula sumando 8 cm al tórax máximo, resultando en 98 cm. El pecho se obtiene restando 4 cm al tórax máximo, dando 86 cm. La cintura se determina restando 28 cm de la medida de la cadera, resultando en 70 cm. La estatura 7a cervical útil se calcula restando 20 cm de la estatura total, resultando en 1.50 m. Finalmente, el largo de brazo se calcula como 4/10 de la estatura 7aC, que resulta en 60 cm. ')
+      .col-lg-7.col-md-12.mb-4
+        .tabla-a.tabla-peque
           table.text-center
             thead
               tr.bl
@@ -463,64 +457,63 @@
                 th.h4 #[b Dif. x talla]
                 th.h4 #[b Prop. x medida]
                 th.h4 #[b Medida aplicar en escalado]
-            tbody
-            tr
-              td.text-center.bla Largo T.
-              td.text-center.bla 0.5 cm
-              td.text-center.bla 1 proporción
-              td.text-center.bla 0.25 cm
-            tr
-              td.text-center.ba Largo 1
-              td.text-center.ba 0.25 cm
-              td.text-center.ba 1 proporción
-              td.text-center.ba 0.25 cm
-            tr
-              td.text-center.bla Largo 2
-              td.text-center.bla 0.25 cm
-              td.text-center.bla 1 proporción
-              td.text-center.bla 0.25 cm
-            tr
-              td.text-center.ba A.a
-              td.text-center.ba 2 cm
-              td.text-center.ba 1/2 proporción
-              td.text-center.ba 1 cm
-            tr
-              td.text-center.bla B.b
-              td.text-center.bla 2 cm
-              td.text-center.bla 1/2 proporción
-              td.text-center.bla 1 cm
-            tr
-              td.text-center.ba A.c
-              td.text-center.ba 2 cm
-              td.text-center.ba 1/2 proporción
-              td.text-center.ba 1 cm
-    
-    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
-      .col-lg-12.col-md-12.col-12            
-        .caja5.p-4
-          .row.justify-content-center.align-items-center.mb-0
-            .col-lg-4.col-md-12.col-12
-              .titulo-sexto.color-acento-contenido
-                h5 Figura 7. 
-                | Punto de origen 1
-              img.img-a.img-t(src='@/assets/curso/tema1/img13.svg', alt='La figura presenta una pieza de una prenda ubicada en un plano donde se destaca el punto de origen (0,0), adicionalmente se señalan los cm de aumento en cada vértice de la pieza.')
-            .col-lg-6.col-md-12.col-12
-              p.mb-4.my-5 En este caso que el punto de origen está en un punto que divide el largo total.
-              p.mb-2 Se debe tomar la proporción y aplicar mitad hacia arriba - mitad hacia abajo para el largo total y no perder la proporción de la figura.
+            tbody.pp
+              tr
+                td.text-center Largo T.
+                td.text-center 0.5 cm
+                td.text-center 1 proporción
+                td.text-center 0.25 cm
+              tr
+                td.text-center.ba Largo 1
+                td.text-center.ba 0.25 cm
+                td.text-center.ba 1 proporción
+                td.text-center.ba 0.25 cm
+              tr
+                td.text-center Largo 2
+                td.text-center 0.25 cm
+                td.text-center 1 proporción
+                td.text-center 0.25 cm
+              tr
+                td.text-center.ba A.a
+                td.text-center.ba 2 cm
+                td.text-center.ba 1/2 proporción
+                td.text-center.ba 1 cm
+              tr
+                td.text-center B.b
+                td.text-center 2 cm
+                td.text-center 1/2 proporción
+                td.text-center 1 cm
+              tr
+                td.text-center.ba A.c
+                td.text-center.ba 2 cm
+                td.text-center.ba 1/2 proporción
+                td.text-center.ba 1 cm
+             
+    .caja5.p-4.mb-4(data-aos="fade-right")
+      .row.justify-content-center.align-items-center.mb-0
+        .col-lg-4.col-md-12.col-12
+          .titulo-sexto.color-acento-contenido.mb-3
+            h5 Figura 7. 
+            span.mb-0 Punto de origen 1
+          figure
+            img.img-a.img-t(src='@/assets/curso/tema1/img13.svg', alt='La figura presenta una pieza de una prenda ubicada en un plano donde se destaca el punto de origen (0,0), adicionalmente se señalan los cm de aumento en cada vértice de la pieza.')
+        .col-lg-6.col-md-12.col-12
+          p En este caso que el punto de origen está en un punto que divide el largo total.
+          p Se debe tomar la proporción y aplicar mitad hacia arriba - mitad hacia abajo para el largo total y no perder la proporción de la figura.
+               
+    .caja5.p-4.mb-5(data-aos="fade-right")
+      .row.justify-content-center.align-items-center.mb-0
+        .col-lg-4.col-md-12.col-12
+          .titulo-sexto.color-acento-contenido.mb-3
+            h5 Figura 8. 
+            span.mb-0 Punto de origen 2
+          figure
+            img.img-a.img-t(src='@/assets/curso/tema1/img14.svg', alt='La figura presenta una pieza de una prenda ubicada en un plano donde se destaca el punto de origen (0,0) en uno de los vértices, adicionalmente se señalan los cm de aumento de la talla M a la L en cada vértice de la pieza.')
+        .col-lg-6.col-md-12.col-12
+          p En este caso que el punto de origen está en un punto base de construcción.
+          p Se debe tomar la proporción y aplicar toda hacia arriba para largo total y no perder la proporción de la figura.
+          p Sin embargo, debe tener en cuenta el vértice A.b modifica a su altura, para no perder la proporción de la figura.
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
-      .col-lg-12.col-md-12.col-12            
-        .caja5.p-4
-          .row.justify-content-center.align-items-center.mb-0
-            .col-lg-4.col-md-12.col-12
-              .titulo-sexto.color-acento-contenido
-                h5 Figura 8. 
-                | Punto de origen 2
-              img.img-a.img-t(src='@/assets/curso/tema1/img14.svg', alt='La figura presenta una pieza de una prenda ubicada en un plano donde se destaca el punto de origen (0,0) en uno de los vértices, adicionalmente se señalan los cm de aumento de la talla M a la L en cada vértice de la pieza.')
-            .col-lg-6.col-md-12.col-12
-              p.mb-4.my-5 En este caso que el punto de origen está en un punto base de construcción.
-              p.mb-2 Se debe tomar la proporción y aplicar toda hacia arriba para largo total y no perder la proporción de la figura.
-              p.mb-0 Sin embargo, debe tener en cuenta el vértice A.b modifica a su altura, para no perder la proporción de la figura.
 
     .subt.mb-4(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
@@ -528,7 +521,7 @@
         h3.mb-0.ms-2 Tipos de escalado
 
     TabsC.color-primario.mb-5(data-aos="fade")
-      .py-3.py-md-4.bg26.px-3(titulo="Escalado monobásico")
+      .py-3.py-md-4.px-3(titulo="Escalado monobásico")
         .row.justify-content-center
           .col-lg-4.col-md-8.col-8.my-3
             img.img-a.img-t(src='@/assets/curso/tema1/img43.png', alt='')
@@ -536,14 +529,14 @@
             p.mb-0 Partiendo de tallas base se obtienen las demás por aumento o reducción.
             p.mb-0 En este caso los incrementos entre tallas se mantienen constantes en toda la serie.
             p.mb-4 Crecimiento de estatura se produce aumentando ancho y largos, llamándose también escalado de crecimiento real.
-            ul.lista-ul--color
+            ul.lista-ul--color.color-primario
               li.mb-4.d-flex.mx-0
                 i.fas.fa-chevron-right
                 p #[b Simple o relativo/diferencial:] se aplica cuando los incrementos de tallas varían dentro de la serie ejemplo, no se produce incremento de estatura, solo anchos.
               li.mb-0.d-flex.mx-0
                 i.fas.fa-chevron-right
                 p #[b Compuesto o absoluto proporcional:] los incrementos entre tallas se mantienen constantes en toda la serie, por ejemplo, se produce incremento de estatura, se aumenta anchos y largos, llamado también escalado de crecimiento real.
-      .py-3.py-md-4.bg26.px-3(titulo="Escalado bibásico")
+      .py-3.py-md-4.px-3(titulo="Escalado bibásico")
         .row.justify-content-center
           .col-lg-4.col-md-8.col-8.my-3
             img.img-a.img-t(src='@/assets/curso/tema1/img44.png', alt='')
@@ -551,19 +544,20 @@
             p.mb-4 Tomamos dos tallas básicas para obtener una intermedia, lo ideal es disponer de dos patrones, talla prototipo y talla límite.
             p.mb-4 Superponer patrón prototipo en el patrón límite con base en líneas comunes, una horizontal y una vertical.
             p.mb-0 Las tallas intermedias se trazan uniendo los vértices de ambos patrones por medio de puntos y dividiéndolos por el número de patrones a hallar.
-      .py-3.py-md-4.bg26.px-3(titulo="Escalado tribásico")
+      .py-3.py-md-4.px-3(titulo="Escalado tribásico")
         .row.justify-content-center
           .col-lg-4.col-md-8.col-8.my-3
             img.img-a.img-t(src='@/assets/curso/tema1/img45.png', alt='')
           .col-lg-7.col-md-12.my-3
             p.mb-0 Se toman tres tallas para obtener una intermedia, por ejemplo, 10 – 14 – 18 para obtener la intermedia 12 - 16.
 
+
     .subt.mb-4(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
         img(src='@/assets/curso/tema1/subt.svg', alt='')
         h3.mb-0.ms-2 Análisis de cuadros de tallas
       
-    p.mb-4(data-aos="fade-right") Para el análisis de cuadros de tallas se determina:
+    p.mb-4 Para el análisis de cuadros de tallas se determina:
     
     .row.justify-content-center.mb-5(data-aos="fade-down") 
       .col-sm-6.col-xl-4.mb-4.mb-xl-0
@@ -593,37 +587,33 @@
       .col-lg-8.col-md-12.col-12
         .caja2.rad.p-4
           p.mb-0 El análisis de los anteriores dará como resultado: 
-            strong valores – proporciones - rupturas de talla.
+            strong valores - proporciones - rupturas de talla.
     
     p.mb-4 En este caso se hace el análisis desde la talla base hasta la ruptura, identificando las medidas aplicar en el escalado del patrón base.
 
-    .row.justify-content-center.align-items-center.mb-4(data-aos="fade")
-      .col-lg-10.col-md-12.col-12
-        .fondo21.p-4.mb-5
-          .row.justify-content-center.align-items-center
-            .col-lg-1.col-md-12.col-12
-              img.mx-1.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/tema1/img20.svg", alt="")
-            .col-lg-9.col-md-12.col-12
-              h4.mb-1 Cuadro de tallas femeninas
-              p.mb-2 Revisa el documento que pueden resultar útil  para aprender más sobre el cuadro de tallas femeninas. (Revisar página 20).
-            .col-lg-2.col-md-12.col-12
-              a.boton.color-acento-botones(href="https://www.scribd.com/document/279036173/Manual-de-Patronaje-Basico-Sena" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
+    .fondo21.p-4.mb-4(data-aos="fade")
+      .row.justify-content-center.align-items-center
+        .col-lg-1.col-md-12.col-12
+          img.mx-1.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/tema1/img8.svg", alt="")
+        .col-lg-9.col-md-12.col-12
+          h4.mb-1 Cuadro de tallas femeninas
+          p.mb-0 Revisa el documento que pueden resultar útil  para aprender más sobre el cuadro de tallas femeninas. (Revisar página 20).
+        .col-lg-2.col-md-12.col-12
+          a.boton.color-acento-botones(href="https://www.scribd.com/document/279036173/Manual-de-Patronaje-Basico-Sena" target="_blank")
+            span Descargar
+            i.fas.fa-file-download
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade")
-      .col-lg-10.col-md-12.col-12
-        .fondo21.p-4.mb-5
-          .row.justify-content-center.align-items-center
-            .col-lg-1.col-md-12.col-12
-              img.mx-1.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/tema1/img21.svg", alt="")
-            .col-lg-9.col-md-12.col-12
-              h4.mb-1 Tallas de 6 a 14
-              p.mb-2 Revisa el documento que pueden resultar útil  para aprender más sobre las Tallas de 6 a 14. (Revisar página 84).
-            .col-lg-2.col-md-12.col-12
-              a.boton.color-acento-botones(href="https://www.scribd.com/document/279036173/Manual-de-Patronaje-Basico-Sena" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
+    .fondo21.p-4.mb-5(data-aos="fade")
+      .row.justify-content-center.align-items-center
+        .col-lg-1.col-md-12.col-12
+          img.mx-1.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/tema1/img8.svg", alt="")
+        .col-lg-9.col-md-12.col-12
+          h4.mb-1 Tallas de 6 a 14
+          p.mb-0 Revisa el documento que pueden resultar útil  para aprender más sobre las Tallas de 6 a 14. (Revisar página 84).
+        .col-lg-2.col-md-12.col-12
+          a.boton.color-acento-botones(href="https://www.scribd.com/document/279036173/Manual-de-Patronaje-Basico-Sena" target="_blank")
+            span Descargar
+            i.fas.fa-file-download
     
     .subt.mb-4(data-aos="fade-right")
       .d-flex.align-items-center.mb-1
@@ -639,33 +629,33 @@
             img(src='@/assets/curso/tema1/img22.png', alt='')
           .col-lg-9.col-md-12.col-12
             .caja5pw.p-3.ps-lg-5
-              p.mb-0.ps-lg-5.tr
-              ul.lista-ul--color.my-0
+              ul.lista-ul--color.color-primario.mb-0
                 li.mb-0.mx-4.d-flex
                   i.fas.fa-chevron-right
-                  | Definir la metodología y lógica de construcción de la prenda.
+                  span.mb-0 Definir la metodología y lógica de construcción de la prenda.
                 li.mb-0.mx-4.d-flex
                   i.fas.fa-chevron-right
-                  | Conocer la pieza que se va a escalar.
+                  span.mb-0 Conocer la pieza que se va a escalar.
                 li.mb-0.mx-4.d-flex
                   i.fas.fa-chevron-right
-                  | Definir si es un básico o es un desarrollo de diseño.
+                  span.mb-0 Definir si es un básico o es un desarrollo de diseño.
                 li.mb-0.mx-4.d-flex
                   i.fas.fa-chevron-right
-                  | Definir si se va a incluir margen de costura.
+                  span.mb-0 Definir si se va a incluir margen de costura.
                 li.mb-0.mx-4.d-flex
                   i.fas.fa-chevron-right
-                  | Definir el tipo de escalado que se va a trabajar.
+                  span.mb-0 Definir el tipo de escalado que se va a trabajar.
                 li.mb-0.mx-4.d-flex
                   i.fas.fa-chevron-right
-                  | Analizar el cuadro de tallas.
+                  span.mb-0 Analizar el cuadro de tallas.
                 li.mb-0.mx-4.d-flex
                   i.fas.fa-chevron-right.mb-0
-                  | Analizar la diferencia por talla e identificar la medida a aplicar en el escalado.
+                  span.mb-0 Analizar la diferencia por talla e identificar la medida a aplicar en el escalado.
                 li.mb-0.mx-4.d-flex
                   i.fas.fa-chevron-right.mb-0
-                  | Analizar los puntos de escalado que se van a referenciar o modificar.
+                  span.mb-0 Analizar los puntos de escalado que se van a referenciar o modificar.
   
+
     Separador 
     #t_1_1.titulo-segundo.mb-4
       h2 1.1 Escalado de falda
@@ -679,20 +669,19 @@
             iframe(width="560" height="315" src="https://www.youtube.com/embed/-YYkMqxaJfg?si=tntlvF1mIUOoNlqB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
           figcaption Video. Escalado De Falda Femenino
     
-    .row.justify-content-center.align-items-center.mb-0(data-aos="fade")
-      .col-lg-10.col-md-12.col-12
-        .fondo21.p-4.mb-5
-          .row.justify-content-center.align-items-center
-            .col-lg-1.col-md-12.col-12
-              img.mx-1.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/tema1/img23.svg", alt="")
-            .col-lg-9.col-md-12.col-12
-              h4.mb-1 Plantilla escalado de falda 
-              p.mb-2 La plantilla que puede resultar útil  para aprender más sobre el escalado de falda.
-            .col-lg-2.col-md-12.col-12
-              a.boton.color-acento-botones(:href="obtenerLink('/downloads/Plantilla_escalado_de_falda.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
+    .fondo21.p-4(data-aos="fade")
+      .row.justify-content-center.align-items-center
+        .col-lg-1.col-md-12.col-12
+          img.mx-1.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/tema1/img8.svg", alt="")
+        .col-lg-9.col-md-12.col-12
+          h4.mb-1 Plantilla escalado de falda 
+          p.mb-2 La plantilla que puede resultar útil  para aprender más sobre el escalado de falda.
+        .col-lg-2.col-md-12.col-12
+          a.boton.color-acento-botones(:href="obtenerLink('/downloads/Plantilla_escalado_de_falda.pdf')" target="_blank")
+            span Descargar
+            i.fas.fa-file-download
     
+  
     Separador 
     #t_1_2.titulo-segundo.mb-5
       h2 1.2 Escalado de base con pinzas - superior
@@ -716,19 +705,18 @@
             iframe(width="560" height="315" src="https://www.youtube.com/embed/5w_UnxRLOBQ?si=e2QvetrlparUOtWa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
           figcaption Video. Escalado De Base Con Pinzas Superior
     
-    .row.justify-content-center.align-items-center.mb-0(data-aos="fade")
-      .col-lg-10.col-md-12.col-12
-        .fondo21.p-4.mb-5
-          .row.justify-content-center.align-items-center
-            .col-lg-1.col-md-12.col-12
-              img.mx-1.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/tema1/img24.svg", alt="")
-            .col-lg-9.col-md-12.col-12
-              h4.mb-1 Escalado de base con pinzas - superior
-              p.mb-2 Revisa el documento que pueden resultar útil  para aprender más sobre el escalado de base con pinzas - superior.
-            .col-lg-2.col-md-12.col-12
-              a.boton.color-acento-botones(:href="obtenerLink('/downloads/Escalado_de_base_con_pinzas_superior.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
+    .fondo21.p-4(data-aos="fade")
+      .row.justify-content-center.align-items-center
+        .col-lg-1.col-md-12.col-12
+          img.mx-1.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/tema1/img8.svg", alt="")
+        .col-lg-9.col-md-12.col-12
+          h4.mb-1 Escalado de base con pinzas - superior
+          p.mb-2 Revisa el documento que pueden resultar útil  para aprender más sobre el escalado de base con pinzas - superior.
+        .col-lg-2.col-md-12.col-12
+          a.boton.color-acento-botones(:href="obtenerLink('/downloads/Escalado_de_base_con_pinzas_superior.pdf')" target="_blank")
+            span Descargar
+            i.fas.fa-file-download
+
 
     Separador 
     #t_1_3.titulo-segundo.mb-5
@@ -747,19 +735,19 @@
             iframe(width="560" height="315" src="https://www.youtube.com/embed/sgGEl_vjJTc?si=EcXiXWbOoh3GVwDr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
           figcaption Video. ESCALADO DE BÁSICO DE PANTALÓN
     
-    .row.justify-content-center.align-items-center(data-aos="fade")
-      .col-lg-10.col-md-12.col-12
-        .fondo21.p-4.mb-5
-          .row.justify-content-center.align-items-center
-            .col-lg-1.col-md-12.col-12
-              img.mx-1.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/tema1/img26.svg", alt="")
-            .col-lg-9.col-md-12.col-12
-              h4.mb-1 Escalado de básico de pantalón
-              p.mb-2 Revisa el documento que pueden resultar útil  para aprender más sobre el escalado de básico de pantalón.
-            .col-lg-2.col-md-12.col-12
-              a.boton.color-acento-botones(:href="obtenerLink('/downloads/Escalado_de_básico_de_pantalón.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
+
+    .fondo21.p-4(data-aos="fade")
+      .row.justify-content-center.align-items-center
+        .col-lg-1.col-md-12.col-12
+          img.mx-1.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/tema1/img8.svg", alt="")
+        .col-lg-9.col-md-12.col-12
+          h4.mb-1 Escalado de básico de pantalón
+          p.mb-2 Revisa el documento que pueden resultar útil  para aprender más sobre el escalado de básico de pantalón.
+        .col-lg-2.col-md-12.col-12
+          a.boton.color-acento-botones(:href="obtenerLink('/downloads/Escalado_de_básico_de_pantalón.pdf')" target="_blank")
+            span Descargar
+            i.fas.fa-file-download
+
 
     Separador 
     #t_1_4.titulo-segundo.mb-4
@@ -779,20 +767,19 @@
             iframe(width="560" height="315" src="https://www.youtube.com/embed/_GM6Ni5lDW8?si=muadyKU5HtcWPxaU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
           figcaption Video. Cortes manga cuello escalado
     
-    .row.justify-content-center.align-items-center.mb-0(data-aos="fade")
-      .col-lg-10.col-md-12.col-12
-        .fondo21.p-4.mb-5
-          .row.justify-content-center.align-items-center
-            .col-lg-1.col-md-12.col-12
-              img.mx-1.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/tema1/img27.svg", alt="")
-            .col-lg-9.col-md-12.col-12
-              h4.mb-1 Escalado cortes, manga, cuello
-              p.mb-2 Revisa el documento (análisis del escalado de acuerdo al cuadro de tallas) que pueden resultar útil  para aprender más sobre el escalado cortes, manga, cuello. 
-            .col-lg-2.col-md-12.col-12
-              a.boton.color-acento-botones(:href="obtenerLink('/downloads/Escalado_de_base_con_pinzas_superior.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
+    .fondo21.p-4(data-aos="fade")
+      .row.justify-content-center.align-items-center
+        .col-lg-1.col-md-12.col-12
+          img.mx-1.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/tema1/img8.svg", alt="")
+        .col-lg-9.col-md-12.col-12
+          h4.mb-1 Escalado cortes, manga, cuello
+          p.mb-2 Revisa el documento (análisis del escalado de acuerdo al cuadro de tallas) que pueden resultar útil  para aprender más sobre el escalado cortes, manga, cuello. 
+        .col-lg-2.col-md-12.col-12
+          a.boton.color-acento-botones(:href="obtenerLink('/downloads/Escalado_de_base_con_pinzas_superior.pdf')" target="_blank")
+            span Descargar
+            i.fas.fa-file-download
     
+
     Separador 
     #t_1_5.titulo-segundo.mb-4
       h2 1.5 Base superior masculina - análisis de escalado bibásico
@@ -815,6 +802,7 @@
             iframe(width="560" height="315" src="https://www.youtube.com/embed/pMZ7Uxb1cl8?si=I_eNzxV9nGJrEgrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
           figcaption Video. Base Superior Masculina Análisis De Escalado Bibásico
     
+
     Separador 
     #t_1_6.titulo-segundo.mb-5
       h2 1.6 Análisis y construcción de cuadro de tallas masculino - dxt escalado
@@ -825,7 +813,6 @@
       .col-lg-8.col-md-12.col-12
         p.mb-4(data-aos="fade") En la metodología del manual de patronaje SENA la línea de masculino e infantil se debe identificar bajo la fórmula o el tipo de construcción de los planos o moldes para poder tener las medidas e incrementos por talla que se van a trabajar en el escalado, si bien se identifica en el manual un cuadro de tallas para cada una de estas líneas, se debe tener en cuenta que desde la construcción, por lo menos en las bases superiores, no se trabaja con el cuadro de tallas, es decir, que se debe hacer la construcción y el análisis del cuadro de tallas basándose en las fórmulas que indica cada una de las construcciones de las bases que se están trabajando, con el fin de poder identificar las diferencias por tallas que se van a aplicar en el escalado.
         p.mb-0(data-aos="fade") Ya después de tener la construcción del cuadro de tallas o identificar las tallas reales que se aplican sobre el trazo o molde se debe hacer el análisis de los puntos y movimientos de escalado que se van a referenciar o modificar.
-
     
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
       .col-lg-12.col-12
@@ -834,19 +821,18 @@
             iframe(width="560" height="315" src="https://www.youtube.com/embed/KcHaLNoyFVI?si=jHAmhuKiAFODs9Nx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
           figcaption Video. Análisis Y Construcción De Cuadro De Tallas Masculino Dxt Escalado
     
-    .row.justify-content-center.align-items-center.mb-0(data-aos="fade")
-      .col-lg-10.col-md-12.col-12
-        .fondo21.p-4.mb-5
-          .row.justify-content-center.align-items-center
-            .col-lg-1.col-md-12.col-12
-              img.mx-1.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/tema1/img31.svg", alt="")
-            .col-lg-9.col-md-12.col-12
-              h4.mb-1(data-aos="fade") Análisis y construcción de cuadro de tallas masculino
-              p.mb-2(data-aos="fade") Revisa el documento que pueden resultar útil  para aprender más sobre el análisis y construcción de cuadro de tallas masculino.
-            .col-lg-2.col-md-12.col-12
-              a.boton.color-acento-botones(:href="obtenerLink('/downloads/Análisis_y _construcción_de_cuadro_de_tallas_masculino.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
+    .fondo21.p-4(data-aos="fade")
+      .row.justify-content-center.align-items-center
+        .col-lg-1.col-md-12.col-12
+          img.mx-1.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/tema1/img8.svg", alt="")
+        .col-lg-9.col-md-12.col-12
+          h4.mb-1(data-aos="fade") Análisis y construcción de cuadro de tallas masculino
+          p.mb-2(data-aos="fade") Revisa el documento que pueden resultar útil  para aprender más sobre el análisis y construcción de cuadro de tallas masculino.
+        .col-lg-2.col-md-12.col-12
+          a.boton.color-acento-botones(:href="obtenerLink('/downloads/Análisis_y _construcción_de_cuadro_de_tallas_masculino.pdf')" target="_blank")
+            span Descargar
+            i.fas.fa-file-download
+
 
     Separador 
     #t_1_7.titulo-segundo.color-primario.mb-5
@@ -857,7 +843,7 @@
         .row.justify-content-center.align-items-center.mb-0
           .col-2
             .avatar
-              img.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/tema1/img7.svg")
+              img.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/tema1/img49.svg")
           .col-lg-10.col-md-12.col-12.caj.p-2
             .row
               .col-1
@@ -873,6 +859,7 @@
           .video.mb-1
             iframe(width="560" height="315" src="https://www.youtube.com/embed/AD1BNSkDZOY?si=53iUJctgMarEzq_f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
           figcaption Video. Modificación De Moldes Análisis Sobre Medidas
+
 
 </template>
 
