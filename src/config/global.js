@@ -90,12 +90,12 @@ export default {
         subMenu: [
           {
             numero: '2.1',
-            titulo: 'Confección <i>panty</i> femenino',
+            titulo: 'Confección <em>panty</em> femenino',
             hash: 't_2_1',
           },
           {
             numero: '2.2',
-            titulo: 'Confección <i>boxer</i> masculino',
+            titulo: 'Confección <em>boxer</em> masculino',
             hash: 't_2_2',
           },
           {
@@ -111,7 +111,7 @@ export default {
           {
             numero: '2.5',
             titulo:
-              'Elaboración de conjunto deportivo <i style="margin-right: 0 !important;">top</i> y <i>leggins</i>',
+              'Elaboración de conjunto deportivo <i style="margin-right: 0 !important;">top</em> y <em>leggins</em>',
             hash: 't_2_5',
           },
         ],
@@ -136,11 +136,6 @@ export default {
         titulo: 'Glosario',
       },
       {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
-      },
-      {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
@@ -162,78 +157,6 @@ export default {
       },
     ],
   },
-  complementario: [
-    {
-      tema: 'Generalidades del sistema de gestión de calidad ISO 9001.',
-      referencia: 'ISO. (2015). Sistema de gestión de calidad 9001: 2015.',
-      tipo: 'Norma',
-      link: 'https://www.iso.org/obp/ui/#iso:std:iso:9001:ed-5:v1:es',
-    },
-    {
-      tema:
-        'Resumen sobre materiales textiles y aspectos relacionados principalmente con la naturaleza de las fibras.',
-      referencia:
-        'Alonso, F. (2015). Manual control de calidad en productos textiles y afines.',
-      tipo: 'Manual',
-      link: 'https://oa.upm.es/38763/',
-    },
-    {
-      tema: 'Confección de ropa interior para dama.',
-      referencia:
-        'Mata. J. (26 de agosto 2017). Confección de ropa interior para damas. YouTube.',
-      tipo: 'Video',
-      link: 'https://youtu.be/Ds5CtwVbaag',
-    },
-    {
-      tema: 'Confección de <i>boxer</i> de hombre.',
-      referencia:
-        'Academia confección alamoda. (20 de octubre 2019). DIY cómo confeccionar un <i>boxer</i> de hombre.  YouTube.',
-      tipo: 'Video',
-      link: 'https://youtu.be/Y3tyM2WTpZ0',
-    },
-    {
-      tema: 'Confección de camiseta tipo polo.',
-      referencia:
-        'Juki central europe. (11 de agosto 2015). JUKI - polo <i>shirt</i> production.  YouTube.',
-      tipo: 'Video',
-      link: 'https://youtu.be/QPor7WBIZNA',
-    },
-    {
-      tema: 'Confección de camiseta tipo polo de hombre.',
-      referencia:
-        'Academia confección alamoda. (6 de abril de 2019). DIY cómo hacer camiseta polo hombre corte y confección.  YouTube.',
-      tipo: 'Video',
-      link: 'https://youtu.be/HJJp-lOu1E4',
-    },
-    {
-      tema: 'Confección de pantalón deportivo con cintas.',
-      referencia:
-        'Academia confección alamoda. (13 de diciembre 2018). DIY cómo hacer un pantalón sudadera entubado con cintas laterales corte y confección.  YouTube. ',
-      tipo: 'Video',
-      link: 'https://youtu.be/oZTVpkX7cuk',
-    },
-    {
-      tema: 'Confección de pantalón de sudadera de dama.',
-      referencia:
-        'Academia confección alamoda. (17 de octubre 2019). DIY cómo hacer un pantalón de sudadera mujer corte y confección.  YouTube.',
-      tipo: 'Video',
-      link: 'https://youtu.be/hlBctRHgSUw',
-    },
-    {
-      tema: 'Confección de top deportivo.',
-      referencia:
-        'Josmar creando con amor. (24 de abril de 2020). <i>Top</i> deportivo muy fácil de confeccionar /josmar. YouTube.',
-      tipo: 'Video',
-      link: 'https://youtu.be/3xGfOwDybBs',
-    },
-    {
-      tema: 'Confección de <i>leggins</i> con transparencias.',
-      referencia:
-        'Montilla, E. (10 de mayo 2017). Confección de <i>leggins</i> deportivo con transparencia. YouTube.',
-      tipo: 'Video',
-      link: 'https://youtu.be/owM_WYtLwlc',
-    },
-  ],
   glosario: [
     {
       termino: 'Atributos del producto',
@@ -258,7 +181,7 @@ export default {
     {
       termino: 'Mariposa',
       significado:
-        'pieza del <i>panty</i> ubicada entre el tiro y la entrepierna para proteger y dar comodidad en la parte íntima femenina.',
+        'pieza del <em>panty</em> ubicada entre el tiro y la entrepierna para proteger y dar comodidad en la parte íntima femenina.',
     },
     {
       termino: 'Punto de control',
@@ -271,7 +194,7 @@ export default {
         'operaciones, faces o procesos que requiere de riguroso control debido a que representa alto riesgo de presentar defectos y por tanto no cumplir con los requisitos.',
     },
     {
-      termino: '<i>Sigma</i> (σ)',
+      termino: '<em>Sigma</em> (σ)',
       significado:
         'es una letra del alfabeto griego, utilizada en representar la desviación estándar (unidad estadística de medición), representa la dispersión o variabilidad de un conjunto de datos.',
     },
@@ -284,52 +207,10 @@ export default {
   referencias: [
     {
       referencia:
-        'Academia confección alamoda. (13 de diciembre 2018). DIY cómo hacer un pantalón sudadera entubado con cintas laterales corte y confección. YouTube.',
-      link: 'https://youtu.be/oZTVpkX7cuk',
+        'Alonso, F. (2015). Manual control de calidad en productos textiles y afines. ',
     },
     {
-      referencia:
-        'Academia confección alamoda. (17 de octubre 2019). DIY cómo hacer un pantalón de sudadera mujer corte y confección. YouTube.',
-      link: 'https://youtu.be/hlBctRHgSUw',
-    },
-    {
-      referencia:
-        'Academia confección alamoda. (20 de octubre 2019). DIY cómo confeccionar un <i>boxer</i> de hombre. YouTube.',
-      link: 'https://youtu.be/Y3tyM2WTpZ0',
-    },
-    {
-      referencia:
-        'Academia confección alamoda. (6 de abril de 2019). DIY cómo hacer camiseta polo hombre corte y confección. YouTube.',
-      link: 'https://youtu.be/HJJp-lOu1E4',
-    },
-    {
-      referencia:
-        'Alonso, F. (2015). Manual control de calidad en productos textiles y afines.',
-      link: 'https://oa.upm.es/38763/',
-    },
-    {
-      referencia: 'ISO. (2015). Sistema de gestión de calidad 9001: 2015.',
-      link: 'https://www.iso.org/obp/ui/#iso:std:iso:9001:ed-5:v1:es',
-    },
-    {
-      referencia:
-        'Josmar creando con amor. (24 de abril de 2020). <i>Top</i> deportivo muy fácil de confeccionar /josmar.  YouTube.',
-      link: 'https://youtu.be/3xGfOwDybBs',
-    },
-    {
-      referencia:
-        'Juki central europe. (11 de agosto 2015). JUKI - polo  <i>shirt</i> production.  YouTube',
-      link: 'https://youtu.be/QPor7WBIZNA',
-    },
-    {
-      referencia:
-        'Mata. J. (26 de agosto 2017). Confección de ropa interior para damas.  YouTube',
-      link: 'https://youtu.be/Ds5CtwVbaag',
-    },
-    {
-      referencia:
-        'Montilla, E. (10 de mayo 2017). Confección de <i>Leggings</i> deportivo con transparencia.  YouTube.',
-      link: 'https://youtu.be/owM_WYtLwlc',
+      referencia: 'ISO. (2015). Sistema de gestión de calidad 9001: 2015. ',
     },
   ],
   creditos: [
@@ -338,8 +219,9 @@ export default {
       autores: [
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Responsable del ecosistema',
-          centro: 'Dirección General',
+          cargo:
+            'Profesional 06. Responsable del ecosistema de recursos educativos digitales (RED)',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Edison Eduardo Mantilla Cuadros',
@@ -355,38 +237,38 @@ export default {
           nombre: 'Rafael Neftalí Lizcano Reyes',
           cargo: 'Asesor pedagógico',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura ',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'Leidy Johana Velásquez Hernández',
           cargo: 'Experta temática',
-          centro: 'Regional Antioquia - Diseño, Confección y Moda ',
+          centro: 'Centro de Diseño, Confección y Moda - Regional Antioquia',
         },
         {
           nombre: 'Paola Angélica Castro Salazar',
           cargo: 'Experta temática',
-          centro: 'Regional Antioquia - Diseño, Confección y Moda ',
+          centro: 'Centro de Diseño, Confección y Moda - Regional Antioquia',
         },
         {
           nombre: 'Paula Andrea Taborda Ortiz',
           cargo: 'Diseñadora instruccional',
-          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología ',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
         {
           nombre: 'Carolina Coca Salazar',
           cargo: 'Revisora metodológica y pedagógica',
-          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología ',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
         {
           nombre: 'Jhon Jairo Rodríguez Pérez',
           cargo: 'Diseñador y evaluador instruccional',
           centro:
-            'Regional Distrito Capital - Centro para la Industria de la Comunicación Gráfica ',
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
         },
         {
           nombre: 'Carolina Jiménez Suescun',
           cargo: 'Evaluadora instruccional',
-          centro: 'Regional Santander - Centro Agroturístico',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -406,7 +288,7 @@ export default {
         {
           nombre: 'Maria Alejandra Vera Briceño',
           cargo: 'Animadora y productora multimedia',
-          centro: 'Regional Santander - Centro Agroturístico',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -416,12 +298,12 @@ export default {
         {
           nombre: 'Yineth Ibette Gonzalez Quintero',
           cargo: 'Validadora de recursos educativos digitales',
-          centro: 'Regional Santander - Centro Agroturístico',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Diana Lizeth Lozada Díaz',
+          nombre: 'Laura Paola Gelvez Manosalva',
           cargo: 'Evaluadora para contenidos inclusivos y accesibles',
-          centro: 'Regional Santander - Centro Agroturístico',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
