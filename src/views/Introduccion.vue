@@ -14,7 +14,7 @@
     figure.mb-5(data-aos="zoom-in-left")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/pINy19LAtBc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Requerimientos técnicos y prototipos
+      figcaption Video. Requerimientos técnicos y prototipos
     
 </template>
 

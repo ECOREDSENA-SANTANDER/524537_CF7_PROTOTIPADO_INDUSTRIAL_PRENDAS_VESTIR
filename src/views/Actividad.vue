@@ -23,7 +23,7 @@ export default {
         '<b>Objetivo:</b> verificar la apropiación de los fundamentos técnicos relacionados con control de calidad, requisitos de patronaje, trazo, corte, confección, terminados, insumos y elaboración de prototipos.',
       barajarPreguntas: true,
       titulo_aprobado: '¡Excelente! Ha superado la actividad',
-      titulo_reprobado: 'No ha superado la actividad',
+      titulo_reprobado: '¡VUELVA A INTENTARLO!',
       preguntas: [
         {
           id: 1,

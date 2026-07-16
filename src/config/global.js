@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Requerimientos técnicos y prototipos',
     Description:
-      'El control de calidad es un sistema integrado en las empresas para prevenir fallas y problemas en los procesos productivos, y productos terminados; pero no es suficiente encontrar las fallas o defectos, el propósito es anticiparse al problema y suplir las deficiencias.  En este componente se aborda el control de calidad sobre la base de las normas vigentes para el desarrollo de los productos; posteriormente, se profundiza en la elaboración de prototipos.',
+      'El control de calidad es un sistema integrado en las empresas para prevenir fallas y problemas en los procesos productivos y productos terminados; pero no es suficiente encontrar las fallas o defectos, el propósito es anticiparse al problema y suplir las deficiencias. En este componente se aborda el control de calidad sobre la base de las normas vigentes para el desarrollo de los productos; posteriormente, se profundiza en la elaboración de prototipos.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -143,7 +143,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/524537_CF6_DU.zip',
+        download: 'downloads/524537_CF7_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -161,22 +161,22 @@ export default {
     {
       termino: 'Atributos del producto',
       significado:
-        'son las cualidades o características del producto como color, tamaño.',
+        'son las cualidades o características del producto, como color, tamaño.',
     },
     {
       termino: 'Defecto',
       significado:
-        'es una no conformidad en características requeridas por el cliente o una norma y que causa incumplimiento del requisito y por tanto insatisfacción del cliente.',
+        'es una no conformidad en características requeridas por el cliente o una norma y que causa incumplimiento del requisito, y por tanto, insatisfacción del cliente.',
     },
     {
-      termino: 'ISO',
+      termino: 'ISO (Organización Internacional de Normalización)',
       significado:
-        'Organización Internacional de Estandarización, ubicada en Ginebra Suiza y tiene presencia en 193. Promueve y desarrolla normas para estandarizar productos y servicios.',
+        'organismo internacional con sede en Ginebra, Suiza, integrado por organismos nacionales de normalización de más de 170 países. Su propósito es desarrollar y publicar normas internacionales que promuevan la calidad, la seguridad, la eficiencia y la estandarización de productos, servicios y procesos.',
     },
     {
       termino: 'Lote',
       significado:
-        'número establecido de una producción, las cuales tienen características comunes y se agrupan dependiendo de un objetivo determinado.  ',
+        'número establecido de una producción, las cuales tienen características comunes y se agrupan dependiendo de un objetivo determinado.',
     },
     {
       termino: 'Mariposa',
@@ -191,12 +191,12 @@ export default {
     {
       termino: 'Punto de control crítico',
       significado:
-        'operaciones, faces o procesos que requiere de riguroso control debido a que representa alto riesgo de presentar defectos y por tanto no cumplir con los requisitos.',
+        'operaciones, faces o procesos que requieren de riguroso control debido a que representan alto riesgo de presentar defectos, y por tanto, no cumplir con los requisitos.',
     },
     {
       termino: '<em>Sigma</em> (σ)',
       significado:
-        'es una letra del alfabeto griego, utilizada en representar la desviación estándar (unidad estadística de medición), representa la dispersión o variabilidad de un conjunto de datos.',
+        'es una letra del alfabeto griego, utilizada para representar la desviación estándar (unidad estadística de medición); representa la dispersión o variabilidad de un conjunto de datos.',
     },
     {
       termino: 'Variables de calidad',
@@ -211,6 +211,10 @@ export default {
     },
     {
       referencia: 'ISO. (2015). Sistema de gestión de calidad 9001: 2015. ',
+    },
+    {
+      referencia:
+        'Ecosistema de Recursos Educativos Digitales SENA. (s. f.). Canal de YouTube.',
     },
   ],
   creditos: [
@@ -287,7 +291,7 @@ export default {
         },
         {
           nombre: 'Maria Alejandra Vera Briceño',
-          cargo: 'Animadora y productora multimedia',
+          cargo: 'Animadora y productora audiovisual',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
