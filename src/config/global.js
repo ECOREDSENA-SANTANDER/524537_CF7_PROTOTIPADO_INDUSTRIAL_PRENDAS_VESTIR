@@ -143,7 +143,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/524537_CF7_DU.zip',
+        download: 'downloads/CF7_524537_DU.zip',
       },
       {
         icono: 'fas fa-download',

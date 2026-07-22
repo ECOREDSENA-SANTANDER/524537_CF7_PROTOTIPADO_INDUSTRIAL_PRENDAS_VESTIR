@@ -131,7 +131,7 @@
           ul.lista-ul--color.mb-0
             li.color-primario.d-flex
               i.fas.fa-plus
-              p.mb-0 Darle importancia al cliente.
+              p.mb-0 Dar importancia al cliente.
             li.color-primario.d-flex
               i.fas.fa-plus
               p.mb-0 Trato cordial y amable al cliente.
