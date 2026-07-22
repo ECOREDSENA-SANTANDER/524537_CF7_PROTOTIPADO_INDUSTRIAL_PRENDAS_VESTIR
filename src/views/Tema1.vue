@@ -326,9 +326,9 @@
             .col-lg-10.col-md-10.col-9
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-0 Revisar el artículo para complementar la información.
+                  p.mb-0 Revisar el artículo calidad_instrumento_capaz_de_garantizar_el_exito.pdf, disponible en la carpeta de Anexos.
                 .col-sm-auto
-                  a.boton.color-boton(:href="obtenerLink('/downloads/Anexos/Complementario_14_3_Articulo.pdf')" target="_blank")
+                  a.boton.color-boton(:href="obtenerLink('/downloads/Anexos/Calidad_instrumento_capaz_de_garantizar_el_exito.pdf')" target="_blank")
                     span.text-sistm Descargar
                     i.fas.fa-file-download.text-sistm
     
@@ -1680,14 +1680,27 @@
                 td.br-cn-td.bb-td Determinación de formaldehído libre e hidrolizado en textiles.
                 td.bb-td ISO 14184 - 1:2011
 
-    .row.justify-content-center.align-items-center(data-aos="fade")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade")
       .col-lg-9
         p La tela es la materia prima que más consume la prenda, por eso se debe revisar la uniformidad del color, sin deshilados, huecos, motas, contaminación de otros hilos, textura de acuerdo con el tejido, es decir, que no tenga arrugas no relacionadas con su textura, limpieza, anchos de tela parejos y orillo de tela.
         p.mb-5 Es importante revisar el comportamiento del textil al contacto con el agua y las temperaturas, sobre todo las altas, dado el caso de que la pieza necesite que se le realicen fusionados y lo relacionado con el planchado. Al lavar la tela, se puede consultar la recuperación y formación de arrugas, la solidez del color para que no migre cuando se presenten combinaciones de colores en las piezas y el uso de insumos.
-        .cajon.color-primario.p-4
+        .cajon.color-acento-contenido.p-4
           p.mb-0.fw-bold También se debe tener en cuenta en las fibras los efectos del contacto con bacterias y microorganismos, su incidencia en la durabilidad. Asimismo, el contacto con fluidos corporales como sangre, saliva o sudoración (Alonso, 2015).
       .col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/temas/tema1/img_101.png') 
+
+    .tarjeta.bg2.p-3
+      .row.justify-content-around.align-items-center
+        .col-lg-1.col-md-2.col-3
+          img(src="@/assets/template/icono-pdf-2.svg")
+        .col-lg-10.col-md-10.col-9
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              p.mb-0 Revisar el artículo manual_control_calidad.pdf para ampliar y complementar la información, disponible en la carpeta de Anexos.
+            .col-sm-auto
+              a.boton.color-boton(:href="obtenerLink('/downloads/Anexos/Manual_control_calidad.pdf')" target="_blank")
+                span.text-sistm Descargar
+                i.fas.fa-file-download.text-sistm
 
 
 </template>
