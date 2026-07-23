@@ -12,8 +12,8 @@
         :style="{'background-image':`url(${require('@/assets/curso/temas/tema2/img_1.png')})`}"
       )
       .bloque-texto-g__texto.p-4.py-lg-5
-        p.mb-0 La elaboración de prototipos en tejido de punto se enfoca principalmente en la elaboración de línea interior y línea deportiva, donde se desarrollan gran variedad de productos, pasando por prendas delicadas, de manipulación cuidadosa, debido al material y tamaño de las piezas. Requiere maquinaria básica, además de contar con aditamentos como dosificadores de elástico en fileteadoras, recubridoras, encauchadoras, guías y fólderes especiales para asegurar la calidad de las costuras. También se incluyen en el proceso máquinas zigzadoras y presilladoras. 
-        
+        p.mb-0 La elaboración de prototipos en tejido de punto se enfoca principalmente en la elaboración de línea interior y línea deportiva, donde se desarrollan gran variedad de productos, pasando por prendas delicadas, de manipulación cuidadosa, debido al material y tamaño de las piezas. Requiere maquinaria básica, además de contar con aditamentos como dosificadores de elástico en fileteadoras, recubridoras, encauchadoras, guías y fólderes especiales para asegurar la calidad de las costuras. También se incluyes en el proceso máquinas zigzadoras y presilladoras.
+
     p Los materiales utilizados requieren un manejo con mayor habilidad, sobre todo en las prendas de tejido de punto, incluyendo las de composición de elastano.
 
     
