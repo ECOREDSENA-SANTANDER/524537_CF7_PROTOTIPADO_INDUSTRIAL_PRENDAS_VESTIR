@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="161" height="161" viewBox="0 0 161 161">
+  <defs>
+    <filter id="Elipse_4935" x="0" y="0" width="161" height="161" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_1098068" data-name="Grupo 1098068" transform="translate(-972 -11386)">
+    <g transform="matrix(1, 0, 0, 1, 972, 11386)" filter="url(#Elipse_4935)">
+      <circle id="Elipse_4935-2" data-name="Elipse 4935" cx="71.5" cy="71.5" r="71.5" transform="translate(9 6)" fill="#fff"/>
+    </g>
+    <g id="alta-calidad" transform="translate(1008 11419)">
+      <path id="Trazado_30701" data-name="Trazado 30701" d="M291.528,52.137l2.879,16.328-15.58,5.671L270.537,88.5l-15.522-5.65V.18l12.642,10.61h16.58l2.879,16.328,12.7,10.66Z" transform="translate(-210.093 -0.132)" fill="#ff9f22"/>
+      <path id="Trazado_30702" data-name="Trazado 30702" d="M130.657.048V82.714l-.058-.021-15.583,5.671L106.726,74l-15.58-5.671L94.025,52l-8.29-14.359,12.7-10.66,2.879-16.328H117.9L130.6,0Z" transform="translate(-85.735 0)" fill="#ffda44"/>
+      <path id="Trazado_30703" data-name="Trazado 30703" d="M271.94,131.449l-16.925,12.693v-9.949l12.149-9.113Z" transform="translate(-210.093 -91.887)" fill="#fd5"/>
+      <path id="Trazado_30704" data-name="Trazado 30704" d="M206.081,154.2v9.949l-7.29,5.467L188.4,157.5l6.043-5.18,5.536,6.457Z" transform="translate(-161.159 -111.899)" fill="#fff68e"/>
+    </g>
+  </g>
+</svg>

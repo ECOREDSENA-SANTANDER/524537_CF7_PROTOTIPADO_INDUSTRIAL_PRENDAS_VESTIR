@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="78" height="78" viewBox="0 0 78 78">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="78" height="78" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Cuadrícula_de_repetición_7" data-name="Cuadrícula de repetición 7" clip-path="url(#clip-path)">
+    <g id="Grupo_1204664" data-name="Grupo 1204664" transform="translate(-423 -2470.699)">
+      <circle id="Elipse_4946" data-name="Elipse 4946" cx="39" cy="39" r="39" transform="translate(423 2470.699)" fill="#214539"/>
+      <path id="Trazado_1262370" data-name="Trazado 1262370" d="M25,0A25,25,0,1,1,0,25,25,25,0,0,1,25,0Z" transform="translate(437 2484.699)" fill="#fade93"/>
+      <g id="Grupo_1055344" data-name="Grupo 1055344" transform="translate(458.796 2494.54)">
+        <path id="Trazado_782711" data-name="Trazado 782711" d="M64.645,82.941a3.214,3.214,0,1,1-3.214-3.214A3.214,3.214,0,0,1,64.645,82.941Z" transform="translate(-58.217 -55.818)" fill="#12263f"/>
+        <path id="Trazado_782712" data-name="Trazado 782712" d="M61.431,56.362a3.214,3.214,0,0,1-3.214-3.214V39.921a3.214,3.214,0,0,1,6.428,0V53.148A3.214,3.214,0,0,1,61.431,56.362Z" transform="translate(-58.217 -36.707)" fill="#12263f"/>
+      </g>
+    </g>
+  </g>
+</svg>

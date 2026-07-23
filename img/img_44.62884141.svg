@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="161" height="161" viewBox="0 0 161 161">
+  <defs>
+    <filter id="Elipse_4940" x="0" y="0" width="161" height="161" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_1055547" data-name="Grupo 1055547" transform="translate(-247 -21568.584)">
+    <g transform="matrix(1, 0, 0, 1, 247, 21568.58)" filter="url(#Elipse_4940)">
+      <circle id="Elipse_4940-2" data-name="Elipse 4940" cx="71.5" cy="71.5" r="71.5" transform="translate(9 6)" fill="#fff"/>
+    </g>
+    <g id="Page-1" transform="translate(286 21604.584)">
+      <g id="_025---Clothing-Website" data-name="025---Clothing-Website">
+        <path id="Shape" d="M82.086,14V70.611a5.661,5.661,0,0,1-5.661,5.661H5.661A5.661,5.661,0,0,1,0,70.611V14Z" transform="translate(0 5.814)" fill="#ecf0f1"/>
+        <path id="Shape-2" data-name="Shape" d="M82.086,12.492v5.661H0V4H35.382a2.839,2.839,0,0,1,2.831,2.831V9.661a2.839,2.839,0,0,0,2.831,2.831Z" transform="translate(0 1.661)" fill="#3b97d3"/>
+        <path id="Shape-3" data-name="Shape" d="M82.086,5.661v8.492H41.043a2.839,2.839,0,0,1-2.831-2.831V8.492a2.839,2.839,0,0,0-2.831-2.831H0A5.661,5.661,0,0,1,5.661,0H76.425A5.661,5.661,0,0,1,82.086,5.661Z" fill="#285680"/>
+        <path id="Shape-4" data-name="Shape" d="M20.983,10.831H5.415A1.415,1.415,0,1,1,5.415,8H20.983a1.415,1.415,0,1,1,0,2.831Z" transform="translate(1.661 3.322)" fill="#ecf0f1"/>
+        <path id="Shape-5" data-name="Shape" d="M24.837,9.825l.415-.415a1.415,1.415,0,0,0-2-2l-.415.415-.415-.415a1.415,1.415,0,0,0-2,2l.415.415-.415.415a1.415,1.415,0,1,0,2,2l.415-.415.415.415a1.415,1.415,0,0,0,2-2Z" transform="translate(8.3 2.912)" fill="#285680"/>
+        <ellipse id="Oval" cx="1.5" cy="1" rx="1.5" ry="1" transform="translate(72.086 6)" fill="#e64c3c"/>
+        <ellipse id="Oval-2" data-name="Oval" cx="1.5" cy="1" rx="1.5" ry="1" transform="translate(66.086 6)" fill="#f0c419"/>
+        <ellipse id="Oval-3" data-name="Oval" cx="1.5" cy="1" rx="1.5" ry="1" transform="translate(61.086 6)" fill="#24ae5f"/>
+        <rect id="Rectangle-path" width="26" height="8" rx="3" transform="translate(28.086 68)" fill="#4fba6f"/>
+        <path id="Shape-6" data-name="Shape" d="M47.225,24.384,45.286,29.21a1.415,1.415,0,0,1-1.316.892H37.417A14.638,14.638,0,0,1,36,24.441,6.6,6.6,0,0,1,37.87,19.53l8.52,3a1.415,1.415,0,0,1,.835,1.854Z" transform="translate(14.948 8.11)" fill="#f29c1f"/>
+        <path id="Shape-7" data-name="Shape" d="M25.322,24.441A14.638,14.638,0,0,1,23.907,30.1H17.354a1.415,1.415,0,0,1-1.316-.892L14.1,24.384a1.415,1.415,0,0,1,.835-1.854l8.52-3a6.6,6.6,0,0,1,1.868,4.911Z" transform="translate(5.814 8.11)" fill="#f29c1f"/>
+        <path id="Shape-8" data-name="Shape" d="M42.362,25a14.638,14.638,0,0,0,1.415,5.661V50.471A2.839,2.839,0,0,1,40.947,53.3H23.963a2.839,2.839,0,0,1-2.831-2.831V30.657A14.638,14.638,0,0,0,22.548,25a6.6,6.6,0,0,0-1.868-4.911L25.8,18.274a1.415,1.415,0,0,1,1.543.41,6.544,6.544,0,0,0,5.109,2.066,6.544,6.544,0,0,0,5.109-2.066,1.415,1.415,0,0,1,1.543-.41l5.123,1.812A6.6,6.6,0,0,0,42.362,25Z" transform="translate(8.588 7.555)" fill="#f0c419"/>
+        <g id="Grupo_1054962" data-name="Grupo 1054962" transform="translate(7.077 42.476)">
+          <path id="Shape-9" data-name="Shape" d="M10.661,41.317a1.415,1.415,0,0,1-1-.415L5.415,36.657a1.415,1.415,0,0,1,0-2L9.66,30.41a1.415,1.415,0,0,1,2,2L8.416,35.656,11.662,38.9a1.415,1.415,0,0,1-1,2.416Z" transform="translate(-5 -30.012)" fill="#bdc3c7"/>
+          <path id="Shape-10" data-name="Shape" d="M49.415,41.317a1.415,1.415,0,0,1-1-2.416l3.245-3.245-3.245-3.245a1.415,1.415,0,0,1,2-2l4.246,4.246a1.415,1.415,0,0,1,0,2L50.416,40.9a1.415,1.415,0,0,1-1,.415Z" transform="translate(12.857 -30.012)" fill="#bdc3c7"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
